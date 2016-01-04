@@ -1,3 +1,3 @@
 # Semaine-9
 
-Exercices Javascript cete semaine
+Exercices Javascript cette semaine
