@@ -1,0 +1,7 @@
+.selected {
+    background-color: #88f;
+}
+
+.hidden {
+    visibility: hidden;
+}
