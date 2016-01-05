@@ -19,8 +19,8 @@ function supprimer () {
 function restaurer () {
     listLi = $liste.children;
     for (i = 0; i < listLi.length; i++) {
-        if (listLi[i].className == "hidden") {
-            listLi[i].hidden['visibility'] ='visible';
+        if (listLi[i].classList.contains("hidden")) {
+            listLi[i].classList.remove("hidden");
         }
     }
 }
